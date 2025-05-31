@@ -39,12 +39,11 @@
             <a href="{{ get_url(path="@/pages/now.md") }}">click to find out what I'm doing now</a>
           </p>
         {% else %}
-          <p class="index-intro">我是<a href="/about/">Owen</a>，截止目前已写了<a href="{{ get_url(path="@/pages/archive.md",lang=lang) }}">
+          <!-- <p class="index-intro">我是<a href="/about/">Owen</a>，截止目前已写了<a href="{{ get_url(path="@/pages/archive.md",lang=lang) }}">
               {{ all_section_pages.pages | length }}</a>
           篇文章，大约 {{ total_word_count }} 字，最后更新时间：<time datetime="{{ all_pages_sort_by_date[0].updated }}">{{ all_pages_sort_by_date[0].updated }}</time>。 我把这里定位成我的数字个人花园，存放我的笔记，<a href="/thoughts">短想法</a>（不愿意发在社交媒体上的短想法），我在另一个 Clip 网站上存放我<a href="https://clip.owenyoung.com/">阅读过的优秀文章</a>,
-          在 <a href="{{ get_url(path="@/pages/about.md") }}">About</a> 页面了解更多关于我的介绍，在 <a href="{{ get_url(path="@/pages/now.md") }}">Now 页面</a>了解我最近在做什么。
+          在 <a href="{{ get_url(path="@/pages/about.md") }}">About</a> 页面了解更多关于我的介绍，在 <a href="{{ get_url(path="@/pages/now.md") }}">Now 页面</a>了解我最近在做什么。 -->
           </p>
-
         {% endif %}
         <input aria-label="search input" type="search" id="search-bar-input" placeholder="Search" class="relative"/>
         </div>
@@ -94,8 +93,7 @@
           </ul>
         </details>
         {% endif %}
-                  <iframe src="https://embeds.beehiiv.com/482231fd-f9a5-4134-8237-6f00fdadf0e1?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
-
+        <!-- <iframe src="https://embeds.beehiiv.com/482231fd-f9a5-4134-8237-6f00fdadf0e1?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe> -->
 
       <details open class="py">
       <summary class="by">{{ trans(key="label_quotes_title",lang=lang) | markdown(inline=true) | safe }}<a href="#quotes" id="quotes" class="zola-anchor">🔗</a>

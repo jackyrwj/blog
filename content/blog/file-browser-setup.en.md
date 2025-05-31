@@ -4,7 +4,7 @@ date: 2022-02-26
 updated: 2022-03-26
 taxonomies:
   categories:
-    - Dev
+    - Random
   tags:
     - Self-hosted
 ---

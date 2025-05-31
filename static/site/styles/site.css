@@ -52,6 +52,7 @@
   font-style: normal;
   unicode-range: U+0025-00FF;
 }
+
 html,
 body,
 p,
@@ -172,23 +173,10 @@ html {
   --colors-blue: #1ca9c9;
   --colors-secondary: #14213d;
   --colors-surface: rgba(0, 0, 0, 0.04);
-  font-family:
-    ui-sans-serif,
-    system-ui,
-    -apple-system,
-    BlinkMacSystemFont,
-    segoe ui,
-    Roboto,
-    helvetica neue,
-    Arial,
-    noto sans,
-    sans-serif,
-    apple color emoji,
-    segoe ui emoji,
-    segoe ui symbol,
-    noto color emoji;
+  font-family: "Noto Serif SC", Roboto, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK", "WenQuanYi Micro Hei", sans-serif;
   font-feature-settings: normal;
   font-variation-settings: normal;
+  line-height: 32px;
 }
 
 /* Adds dark mode */
@@ -204,6 +192,8 @@ html {
 body {
   color: var(--colors-text);
   background-color: var(--colors-background);
+  font-family: "Noto Serif SC", Roboto, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans CJK", "WenQuanYi Micro Hei", sans-serif;
+  line-height: 32px;
 }
 
 #root {

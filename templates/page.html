@@ -93,13 +93,13 @@
                 <time class="dt-updated updated" datetime="{{ page.updated }}">{{ page.updated | date(format="%Y.%m.%d") }}</time>
               {% endif %}
               {% if config.extra.edit_url_prefix %}
-                <a class="muted" href="{{ config.extra.edit_url_prefix~page.relative_path }}">&nbsp;📝 {{ trans(key="label_edit",lang=lang) }}</a>
+                <!-- <a class="muted" href="{{ config.extra.edit_url_prefix~page.relative_path }}">&nbsp;📝 {{ trans(key="label_edit",lang=lang) }}</a> -->
               {% endif %}
             </div>
           </div>
       {% endif %}
       {{ macro::backlink(pages=page.backlinks) }}
-      <iframe src="https://embeds.beehiiv.com/482231fd-f9a5-4134-8237-6f00fdadf0e1?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+      <!-- <iframe src="https://embeds.beehiiv.com/482231fd-f9a5-4134-8237-6f00fdadf0e1?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe> -->
       <p class="text-sm mt mb-lg">该博客没有评论系统，我正在实验有意义的讨论是否更易在社群中发生，不知道为什么，人在社群中，似乎会有更好的行为规范。然后如果有高质量的讨论，我会手动再精选到原文。为此，我建立了一个 <a target="_blank" href="https://t.me/+c2drnwCso55mMjBh">Telegram 讨论群组</a>，你可以在里面讨论这篇文章，<a href="#" id="copyButton">点此复制文章标题和链接</a>&nbsp;<span id="copyStatus"></span>。</p>
 
   </div>

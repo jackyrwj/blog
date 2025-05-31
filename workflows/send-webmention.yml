@@ -1,10 +1,10 @@
 sources:
   - from: https://deno.land/x/denoflow@0.0.35/sources/rss.ts
     args:
-      - https://www.owenyoung.com/blog/atom.xml
+      - https://blog.raowenjie.xyz/blog/atom.xml
   - from: https://deno.land/x/denoflow@0.0.35/sources/rss.ts
     args:
-      - https://www.owenyoung.com/en/blog/atom.xml
+      - https://blog.raowenjie.xyz/en/blog/atom.xml
 steps:
   - use: fetch
     args:

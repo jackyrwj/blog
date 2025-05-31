@@ -1,17 +1,16 @@
 ---
-title: Tweets
-date: 2022-03-10
-updated: 2022-03-22
+title: "Thoughts"
+date: 2024-03-21
+updated: 2024-03-21
 taxonomies:
   categories:
-    - Notes
+    - Random
   tags:
-    - Tweets
-    - Random Book
+    - Thoughts
 ---
 
-> The main reason that why I'm not in the web3, is I don't have a good password/dotfiles manager, so it's difficult for to login with MetaMask, cause I don't know where to store my recover code.
+Some thoughts.
 
 <!-- more -->
 
-> Hello World. - 2022.03.10
+## Latest Thoughts

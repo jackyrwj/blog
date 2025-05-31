@@ -11,7 +11,6 @@ title: Sidebar
 
 - [About](/en/about/)
 - [Now](/now/)
-- [Changelog](@/changelog/index.en.md)
 
 ## Other
 
